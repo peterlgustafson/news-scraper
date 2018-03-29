@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reddit Sports News Scraper</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <style>
+    body {
+      background-image: url("https://images.pexels.com/photos/89699/pexels-photo-89699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+
+    .page-footer {
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+
+    nav {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Reddit Sports News Headlines Scraper</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/articles">Articles</a>
+        </li>
+        <li>
+          <a href="/saved">Saved Articles</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+
+
+  <footer class="page-footer" style="position:fixed;bottom:0;left:0;width:100%;">
+    <div class="container">
+      © 2018 Copyright Peter Gustafson
+    </div>
+  </footer>
+
+</body>
+
+</html>
